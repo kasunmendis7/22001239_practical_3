@@ -1033,3 +1033,85 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5ed2562
 2024.07.01 21:47:01 INFO  time: Imported build in 0.1s[0m
 2024.07.01 21:47:01 INFO  compiling 22001239_practical_3_f4dd477a3a (1 scala source)[0m
 2024.07.01 21:47:07 INFO  time: indexed workspace in 4.45s[0m
+2024.07.01 21:50:19 INFO  BSP server: os.PathError$LastOnEmptyPath: empty path has no last segment[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.PathError$LastOnEmptyPath$.apply(Path.scala:228)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.BasePathImpl.last$$anonfun$1(Path.scala:210)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.Option.getOrElse(Option.scala:201)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.BasePathImpl.last(Path.scala:210)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.BasePathImpl.last$(Path.scala:190)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.RelPath.last(Path.scala:261)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.bsp.BloopSession.isScalaFile$1(BloopSession.scala:40)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.bsp.BloopSession.$anonfun$1(BloopSession.scala:42)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.bsp.BloopSession.registerWatchInputs$$anonfun$1$$anonfun$1(BloopSession.scala:48)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.Build$$anon$2.onNext(Build.scala:1199)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.Build$$anon$2.onNext(Build.scala:1198)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:58)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:36)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.runCallbacks(NioPathWatcher.java:462)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.handleEvent(NioPathWatcher.java:486)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.access$300(NioPathWatcher.java:35)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:108)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:102)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcherService$2.run(NioPathWatcherService.java:95)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2024.07.01 21:50:19 INFO  BSP server: os.PathError$LastOnEmptyPath: empty path has no last segment[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.PathError$LastOnEmptyPath$.apply(Path.scala:228)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.BasePathImpl.last$$anonfun$1(Path.scala:210)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.Option.getOrElse(Option.scala:201)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.BasePathImpl.last(Path.scala:210)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.BasePathImpl.last$(Path.scala:190)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at os.RelPath.last(Path.scala:261)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.bsp.BloopSession.isScalaFile$1(BloopSession.scala:40)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.bsp.BloopSession.$anonfun$1(BloopSession.scala:42)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.bsp.BloopSession.registerWatchInputs$$anonfun$1$$anonfun$1(BloopSession.scala:48)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.Build$$anon$2.onNext(Build.scala:1199)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at scala.build.Build$$anon$2.onNext(Build.scala:1198)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:58)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:36)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.runCallbacks(NioPathWatcher.java:462)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.handleEvent(NioPathWatcher.java:486)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.access$300(NioPathWatcher.java:35)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:108)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:102)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.swoval.files.NioPathWatcherService$2.run(NioPathWatcherService.java:95)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2024.07.01 21:50:19 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2024.07.01 21:50:33 INFO  BSP server: os.PathError$LastOnEmptyPath: empty path has no last segment[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at os.PathError$LastOnEmptyPath$.apply(Path.scala:228)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at os.BasePathImpl.last$$anonfun$1(Path.scala:210)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at scala.Option.getOrElse(Option.scala:201)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at os.BasePathImpl.last(Path.scala:210)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at os.BasePathImpl.last$(Path.scala:190)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at os.RelPath.last(Path.scala:261)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at scala.build.bsp.BloopSession.isScalaFile$1(BloopSession.scala:40)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at scala.build.bsp.BloopSession.$anonfun$1(BloopSession.scala:42)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at scala.build.bsp.BloopSession.registerWatchInputs$$anonfun$1$$anonfun$1(BloopSession.scala:48)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at scala.build.Build$$anon$2.onNext(Build.scala:1199)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at scala.build.Build$$anon$2.onNext(Build.scala:1198)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:58)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:36)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.runCallbacks(NioPathWatcher.java:462)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.handleEvent(NioPathWatcher.java:486)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.access$300(NioPathWatcher.java:35)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:108)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:102)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.swoval.files.NioPathWatcherService$2.run(NioPathWatcherService.java:95)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2024.07.01 21:50:33 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2024.07.01 21:51:24 INFO  Shutting down server[0m
+2024.07.01 21:51:24 INFO  shutting down Metals[0m
+2024.07.01 21:51:24 INFO  Shut down connection with build server.[0m
+2024.07.01 21:51:24 INFO  Exiting server[0m
